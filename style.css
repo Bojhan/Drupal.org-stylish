@@ -34,11 +34,28 @@
 #header-left {
     display: none;
 }
+
+#banner {
+    display: none;
+}
+
+#edit-search-block-form--2 {
+    display: none;
+}
+
 /*
 div#search-theme-form-advanced fieldset#edit-advanced.collapsible legend span.fieldset-legend a.fieldset-title {
     display: none;
 }
 */
+#header-screen {
+    display: none;
+}
+
+#footer {
+    display: none;
+}
+
 #header-content {
     position: absolute;
     margin-left: 982px;
