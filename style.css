@@ -56,7 +56,7 @@ div#search-theme-form-advanced fieldset#edit-advanced.collapsible legend span.fi
 }
 
 html.js fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced).collapsible legend {
-  width: 0%;
+  width: 300px;
 }
 
 #header-content {
