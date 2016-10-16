@@ -34,14 +34,31 @@
 #header-left {
     display: none;
 }
-/*
+
+#banner {
+    display: none;
+}
+
+#edit-search-block-form--2 {
+    display: none;
+}
+
 div#search-theme-form-advanced fieldset#edit-advanced.collapsible legend span.fieldset-legend a.fieldset-title {
     display: none;
 }
-*/
+
+#header-screen {
+    display: none;
+}
+
+#footer {
+    display: none;
+}
+
 html.js fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced).collapsible legend {
   width: 0%;
 }
+
 #header-content {
     position: absolute;
     margin-left: 982px;
