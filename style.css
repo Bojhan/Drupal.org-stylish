@@ -43,17 +43,21 @@
     display: none;
 }
 
-/*
 div#search-theme-form-advanced fieldset#edit-advanced.collapsible legend span.fieldset-legend a.fieldset-title {
     display: none;
 }
-*/
+
+HEAD
 #header-screen {
     display: none;
 }
 
 #footer {
     display: none;
+}
+
+html.js fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced).collapsible legend {
+  width: 0%;
 }
 
 #header-content {
