@@ -222,3 +222,28 @@ code, pre {
     font-family: "Courier New","Bitstream Vera Sans Mono",Monaco,"Lucida Console",monospace !important;
     background-color: #fcfcfb;
 }
+
+/* Adapt the issue overview table, also from tha_sun */
+
+th { background: transparent none !important; }
+
+.views-table.project-issue tr td { padding: 0.35em 0.5em !important; }
+.views-table.project-issue tr td { border-width: 1px !important; border-color: #aaa !important; border-bottom-width: 0 !important; }
+.views-table.project-issue tr.views-row-last td { border-bottom-width: 1px !important; }
+.views-table.project-issue td.views-field-title { max-width: none !important; }
+.views-field-sid, .views-field-priority, .views-field-category, .views-field-version, .views-field-component, .views-field-comment-count, .views-field-last-comment-timestamp, .views-field-name, .views-field-created { white-space: nowrap !important; }
+
+
+
+/* Shorten RTBC status column to just "RTBC" */
+#page .views-table.project-issue tr.state-14 .views-field-field-issue-status { font-size: 0 !important; }
+#page .views-table.project-issue tr.state-14 .views-field-field-issue-status:after { content: "RTBC"; display: inline-block; padding: 0.4em 0 0 0.5em; font-size: 13px !important; }
+
+/* Shorten Postponed (maintainer needs more info) status column to just "Needs info" */
+#page .views-table.project-issue tr.state-16 .views-field-field-issue-status { font-size: 0 !important; }
+#page .views-table.project-issue tr.state-16 .views-field-field-issue-status:after { content: "Needs info"; display: inline-block; padding: 0.4em 0 0 0.5em; font-size: 11px !important; }
+
+/* Status + Category should not wrap. */
+.views-table.project-issue .views-field-field-issue-status, .views-table.project-issue .views-field-field-issue-category { white-space: nowrap; }
+
+
